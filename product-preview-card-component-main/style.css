@@ -1,0 +1,99 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner {
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+}
+
+img {
+    border-radius: 10px 0px 0px 10px;
+
+}
+.descritivo {
+    width: 300px;
+    height: 400px;
+    margin: 10px 30px;
+    text-align: left;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 1px;
+    
+}
+.info {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 30px;
+    
+}
+
+h1 {
+    font-size: 42px;
+    font-family: 'Fraunces', serif;    
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.prince {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prince > p {
+    text-decoration: line-through;
+}
+
+.prince > h1 {
+    color: hsl(158, 36%, 37%);
+}
+
+.cart {
+    width: 300px;
+    height: 60px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cart > img {
+    position: relative;
+
+}
+.cart > p {
+    margin: 10px;
+    color: white;
+    text-align: center;
+    
+}
