@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, hsl(225, 100%, 94%), hsl(225, 100%, 98%));
+}
+
+.conteiner {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 450px;
+    height: 690px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.137);
+}
+
+img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.info {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+
+.principal {
+    font-size: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    line-height: 1px;
+}
+
+p { 
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    line-height: 25px;
+}
+
+.box-prince {
+    height: 80px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    
+}
+
+.icon-prince {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prince {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 { 
+    margin: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+    
+}
+
+.prince > p {
+    margin: 5px;
+}
+
+a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+}
+
+.finalizacao {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    bottom: -30px;
+}
+
+button {
+    border: none;
+    background: none;
+
+}
+
+.pagamento {
+    background-color: hsl(245, 75%, 52%);
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 20px hsla(245, 75%, 52%, 0.213);
+}
+
+.pagamento > p {
+    color: white;
+}
+
+.cancelar {
+    font-weight: 900;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
